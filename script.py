@@ -5,6 +5,8 @@ import plotly.express as px
 text("# Welcome to Preswald!")
 text("This is my first app using Preswald. 🎉")
 
+# This graph plots the BMI against the height of individuals
+
 # Load the CSV
 connect()  # load in all sources, which by default is the sample_csv
 # Add this right after get_df to check if data was loaded
